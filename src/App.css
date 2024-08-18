@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+  font-weight: 700;
+  font-size: 1.2rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title span{
+  font-weight: 400;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main{
+  padding: 25px;
+}
+.find-div input{
+  padding: 10px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  width: 100%;
+  margin: 10px 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+.find-div input::placeholder{
+  opacity: 1 !important;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+.find-div button{
+  color: white;
+  font-weight: 400;
+  font-size: 0.8rem;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 50px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.find-div button:hover{
+  background-color: rgb(47, 47, 47);
+}
+.loader-div{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+gap:10px;
+}
+.loader {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #1982c7;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2.5s linear infinite;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.find-data-div .title{
+  padding: 5px 0px;
+}
+.find-data-div input{
+  padding: 10px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  width: 100%;
+  margin: 10px 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  background-image: url('./components/1\ \(2\).png');
+  background-size:1rem 1rem;
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  outline: none;
+}
+.find-data-div input::placeholder{
+  opacity: 1 !important;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+.find-data-div ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:10px;
+}
+.post-office{
+  list-style-type: none;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 45vw;
+  min-width: fit-content;
+  margin: 10px 0px;
+}
+.post-office p{
+  padding: 5px;
+}
+.post-office:hover{
+  background-color: rgb(227, 227, 227);
 }
