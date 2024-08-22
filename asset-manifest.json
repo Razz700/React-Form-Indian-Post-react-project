@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/React-Form-Indian-Post-react-project/static/css/main.be5d0816.css",
+    "main.css": "/React-Form-Indian-Post-react-project/static/css/main.d8e2205c.css",
     "main.js": "/React-Form-Indian-Post-react-project/static/js/main.70f4f0b2.js",
     "index.html": "/React-Form-Indian-Post-react-project/index.html",
-    "main.be5d0816.css.map": "/React-Form-Indian-Post-react-project/static/css/main.be5d0816.css.map",
+    "main.d8e2205c.css.map": "/React-Form-Indian-Post-react-project/static/css/main.d8e2205c.css.map",
     "main.70f4f0b2.js.map": "/React-Form-Indian-Post-react-project/static/js/main.70f4f0b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.be5d0816.css",
+    "static/css/main.d8e2205c.css",
     "static/js/main.70f4f0b2.js"
   ]
 }
