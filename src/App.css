@@ -120,3 +120,14 @@ gap:10px;
 .post-office:hover{
   background-color: rgb(227, 227, 227);
 }
+@media screen and (max-width:800px) {
+  .post-office{
+    margin: auto;
+    width: 70vw;
+  }
+}
+@media screen and (max-width:500px) {
+  .post-office{
+    width: 100%;
+  }
+}
